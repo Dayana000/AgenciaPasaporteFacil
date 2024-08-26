@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="322.0" prefWidth="293.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyectoagenciamejorado.Controllers.AgenciaController">
+   <children>
+      <BorderPane layoutX="-5.0" prefHeight="56.0" prefWidth="299.0" style="-fx-background-color: #494858;">
+         <center>
+            <Label text="Pasaporte Facil" textFill="#fffdfd" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Georgia" size="14.0" />
+               </font>
+            </Label>
+         </center>
+      </BorderPane>
+      <Button fx:id="agendarCitaButton" layoutX="90.0" layoutY="107.0" mnemonicParsing="false" onAction="#agendarAccionBoton" prefHeight="25.0" prefWidth="108.0" text="Agendar Cita" />
+      <Button fx:id="actualizarClienteButton" layoutX="90.0" layoutY="145.0" mnemonicParsing="false" onAction="#actualizarAccionBoton" text="Actualizar Cliente" />
+      <Button fx:id="eliminarClienteButton" layoutX="90.0" layoutY="185.0" mnemonicParsing="false" onAction="#eliminarAccionBoton" prefHeight="25.0" prefWidth="108.0" text="Eliminar Cliente" />
+      <Button fx:id="listarClienteButton" layoutX="90.0" layoutY="223.0" mnemonicParsing="false" onAction="#listaClienteAccionBoton" prefHeight="25.0" prefWidth="108.0" text="Listar Clientes" />
+      <Button fx:id="salirButton" layoutX="122.0" layoutY="268.0" mnemonicParsing="false" text="Salir">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="65.0" layoutY="71.0" text="Presione la opción a consultar">
+         <font>
+            <Font name="Georgia" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
